@@ -22,7 +22,8 @@ requirements.txt
 git clone https://github.com/matsystems07/BusinessMLTool.git
 cd BusinessMLTool
 
-2. **Install dependencies**:
+
+**2. **Install dependencies**:**
 pip install -r requirements.txt
 
 
