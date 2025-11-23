@@ -1,8 +1,8 @@
 # Core
 streamlit==1.30.0
-pandas==2.1.0
+pandas==2.1.1
 matplotlib==3.8.0
-numpy==1.26.0
+numpy==1.26.2
 
 # LLM / Groq
 groq==1.0.5
@@ -17,6 +17,9 @@ scikit-learn==1.3.0
 
 # Utilities
 typing-extensions==4.8.0
+rich==14.2.0  # required by Streamlit for better logging
 
-# Optional but safe
-io==1.0.0
+# Optional / safe
+markdown-it-py==4.0.0  # Streamlit dependency
+mdurl==0.1.2  # Streamlit dependency
+pygments==2.19.2  # Streamlit dependency
