@@ -20,7 +20,8 @@ requirements.txt
 
 ```bash
 git clone https://github.com/matsystems07/BusinessMLTool.git
-cd BusinessMLTool ```
+cd BusinessMLTool
+```
 
 
 2. **Install dependencies**:
