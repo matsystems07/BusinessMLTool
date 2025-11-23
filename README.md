@@ -24,3 +24,8 @@ cd BusinessMLTool
 
 Install dependencies:
 pip install -r requirements.txt
+
+2. **Install dependencies**:
+pip install -r requirements.txt
+
+
