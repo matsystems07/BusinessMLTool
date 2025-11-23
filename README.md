@@ -1,2 +1,26 @@
-# BusinessMLTool
-This is bussiness based LLM tool created with the purpose of assisting customers with bussiness enquiries along with seasoned individuals with their research and analysis
+# BUSINESS AI APP
+
+A Streamlit-based Business AI application powered by Groq LLM.  
+This app provides customer support, business insights, file/dataset analysis, and memory analytics with dynamic chart generation.
+
+---
+
+## Repository Structure
+
+app.py
+utils/llm_tools.py
+requirements.txt
+.streamlit/secrets.toml
+
+---
+
+## Setup Instructions
+
+1. **Clone the repository**:
+
+```bash
+git clone https://github.com/matsystems07/BusinessMLTool.git
+cd BusinessMLTool
+
+Install dependencies:
+pip install -r requirements.txt
