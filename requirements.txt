@@ -5,7 +5,7 @@ matplotlib==3.8.0
 numpy==1.26.2
 
 # LLM / Groq
-groq==1.0.5
+groq==1.0.5  # compatible with Python 3.11
 
 # File handling
 PyPDF2==3.1.0
