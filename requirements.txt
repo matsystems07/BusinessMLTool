@@ -1,23 +1,14 @@
-# Core
-streamlit==1.41.1
-pandas==2.2.3
-matplotlib==3.9.2
-numpy==2.1.2
-
-# LLM / Groq
-groq==1.4.0
-
-# File handling
-PyPDF2==3.0.1
-python-docx==1.1.2
-openpyxl==3.1.5
-
-# Machine Learning
-scikit-learn==1.5.2
-
-# Utilities / Streamlit dependencies
-rich==13.9.4
-markdown-it-py==3.0.0
-mdurl==0.1.2
-pygments==2.18.0
-typing-extensions==4.12.2
+streamlit==1.41.0          # Supports Python 3.13 per release notes :contentReference[oaicite:0]{index=0}  
+pandas==2.2.3              # First version with good 3.13 compatibility  
+numpy==2.1.2                # 3.13‑support in this 2.x release  
+matplotlib==3.9.2           # Stable Matplotlib; test plots on 3.13  
+groq==0.36.0                # Already supports Python 3.13  
+PyPDF2==3.0.1  
+python-docx==1.1.2  
+openpyxl==3.1.5              # Works for 3.x; test file‑handling  
+scikit-learn==1.6.1         # 1.6.x supports Python 3.9–3.13 :contentReference[oaicite:1]{index=1}  
+rich==13.8.1  
+markdown-it-py==3.0.0  
+mdurl==0.1.2  
+pygments==2.18.0  
+typing-extensions==4.12.2  
