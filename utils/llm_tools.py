@@ -1,6 +1,6 @@
 # utils/llm_tools.py
 
-import streamlit as st
+import os
 from groq import Client
 from typing import List, Dict
 import matplotlib.pyplot as plt
@@ -13,9 +13,11 @@ import re
 # -------------------------------
 def init_groq_client():
     """
-    Initializes the Groq client using the API key stored in Streamlit secrets.
+    Initializes the Groq client using the API key stored in environment variables.
     """
-    api_key = st.secrets["GROQ_API_KEY"]
+    api_key = os.environ.get("GROQ_API_KEY")
+    if not api_key:
+        raise ValueError("⚠️ GROQ_API_KEY not set in environment variables")
     client = Client(api_key=api_key)
     return client
 
